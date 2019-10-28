@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-931 -198L435 -198L435 570L-931 570Z" />
+		</clipPath>
+		<image width="72" height="72" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAAXNSR0IB2cksfwAAAj1QTFRFJys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9KS0/REdXg4aQwsPI4+Tm7e7v4eLkv8HGfYCLPkFSKCw+Oz9PeXyHu7zC39/i7O3u7u7w5eXnxcbLiYuVSEtbKi0/Jys9MjZHh4mT////5ufpNDdIMTVGe32I4eHk8vP0jY+YNThJJys9Jys9OTxNsbO5uLm/QkZVPEBQr7C3ubrAP0JSy8zRxsfMNjpLJys9Jys9iIuUl5mhJys99fX2S05dJys9Jys9iIqUmZqjJys90NHVJys95uboJys9Jys9Jys9Jys93N3gJys9t7i+enyIioyWQENT7Ozu8/P0R0taJys9kJKbnqCoKi5AJys929veRkpZJys9bXB8+Pj5+vr6Ky9B/f39pKWtLzNFNTlKOj5O2NncS09eVllnUVVj4uPl6ursXF9tVVhm6OnqX2JvUVRiWFtp19jb4ODjU1Zlzc7S1dbaT1JhQ0ZWJys9sLK4Jys9paeur7G3ODxMJys9MDRFj5Gb/v7+fX+K+fn6LTFCcHJ+d3qFJys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9ZQj3yQAAAL90Uk5TAAMzYomv0+by/x1use8aCF/B/vy4Ww996QZz7u1B2gqWJtRG8PFd+2VVVkL5lTwE0nJ8Cev/////////////////////////////wv//////////////wx7//////////////2+5///1//8FNv//Zv+S/5O1tOf/8//////////s////4P//0P////////////////////////////////////9g/37///9///////////891SdXRxGAxLsfcPbHkUMLAAADaklEQVR4nLWY51sTQRDGF4HACggGpYQSqiA1CAgENdLERgBRQAFRJIokggJGVBQVexd7b9hQbIBigb/NSy4hyc3u7V0S3283N+/vyXO72Z0ZhOjyWeDr568ICMQ4MEDh7+e7wEckmaqFQcEhWKCQ4KBF8iihYYuVQgqv8CVLQyVjIiKjyBReUZERkjDRqhgxjEWxqmg2Jy6ehbEoPo6BUSdQvo1QygS1GCdRIQ1jUVIinZOcIp2DcWoyjbMsTQ4H47QwMidd4udxSJlO4iwPl8vhtmcG5GRmyedgnJUJ1kvWd3YoRbB2ahnr7iqF637KdpeDcbYzJ0f2gjmkzHFwcjXuczDW5M6D8jzhYJxn50TEegaKsZ9PKzzjYBzJc/ILPAUV5FtBYYRXhSuLiku02tJVq9forIG1ZeUVlVXrqtdv2EhI5/+9m+CLzTVavU21RXUY129psD9v3dYI85ssnGa4h7bv0DuppbVtp/Nz+y5gUDZzoCAQri/Xu2h3tetzxx5g6eRABmFQt1fP0L5CocfA7eouYbBVywLt7xZ6uozIBH7mARZHr+8BJhPqBbFqNuggMPWiQyBWwgb1AVM/GgCxKjaoCpgOI3g0VrJBlcCkQWYQO8IGlQKTGQ2C2FE2qAOYAhEI4WNs0HHoQvA6GzrB4pwcJoBOgZDuNAt0ZgSYBtFZCB86J86pPQ89ZnQBBvHFS2Kcy2UEi4awITG+0nNVBHTtOsEyQPiLcLpRTud03CQ5+gl/WouGb9E4DaNEQy/hGLFqlLK/S26T803ICA42Xnfukjj37pOzuYMNHrU2PSiFnIePKMkG4uFv0+MKIafvCS23k3wd2dT91JXz7Dkt03odoSbaazz8wpnz8hU1sYl6ZdvU1u7gFL+m540xi4jGN3ZOC3Ef8rIVEegtPQU3vuM57z+IJI3bCy2xBu3jpwmO01MnkjJfaImXfiOfv0zUfBXLUEksRnXfvpNqonk5FaNo0pPyePJ/FOxIPeUuZ0rQkk6729RMI4G81WYhlOFO4/cDcrzXinqvOeba9VQ5nNSfNA63dknSOUlgvZzlrZEGp0xpQxbCsgsVrQKTLKFCpIx9OM2Miw+ifs1IwlgUOvabNhr7I2M0ZtXfWcOckDJnmJU5rONlNFnGh2buTu8yW8aHJqNI8j8jD8X2BUwOoAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Монтажная область 1" clip-path="url(#cp1)">
+		<use id="дякуємо" style="fill-opacity: 0.6" href="#img1" x="0" y="0" />
+	</g>
+</svg>

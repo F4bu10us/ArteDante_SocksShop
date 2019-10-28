@@ -1,0 +1,217 @@
+#mostPopularSection{
+    background-image: url("../assets/maleSocksRectangle.jpg");
+    background-repeat: no-repeat;
+    width: 60vw;
+    height: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size:100% 150%;
+    background-position: 50% 30%;
+}
+#socksTopic{
+    color: #ffffff;
+    font-family: "Impact", sans-serif;
+    letter-spacing: 0.4vw;
+    font-size: 3vw;
+}
+#shopBox{
+    display: flex;
+    flex-flow: wrap;
+    width: 60vw;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+.sockBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    margin-bottom: 3vw;
+}
+#hoverBox1 > form{
+    display: none;
+}
+#hoverBox1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+}
+.optionSelector{
+    font-size: 1.3vw;
+    margin-right: 0.5vw;
+    font-family: "Arial",sans-serif;
+    width: 6vw;
+    height: 1.8vw;
+}
+.numberInput{
+    font-size: 1.3vw;
+    width: 3vw;
+    height: 1.5vw;
+}
+.sockSubmit{
+    margin-top: 0.5vw;
+    margin-bottom: 2vw;
+    width: 10vw;
+    height: 2vw;
+    font-size: 0.8vw;
+    outline: none;
+    border: none;
+    font-family: "Arial", sans-serif;
+    background-color: #272b3d;
+    color:white;
+    font-weight: bold;
+}
+.sockSubmit:active{
+    box-shadow: inset 0 0.3vw 0.6vw rgba(255, 255, 255, 0.7);
+}
+.sockImg{
+    width: 18vw;
+    height: 15vw;
+    margin-bottom: 1vw;
+}
+.sockName{
+    text-align: center;
+    font-size: 1.2vw;
+    font-family: "Arial",sans-serif;
+    letter-spacing: 0.1vw;
+    margin-bottom: 0.5vw;
+}
+.sockPrice{
+    font-size: 1.5vw;
+    font-family: "Arial",sans-serif;
+    letter-spacing: 0.1vw;
+    margin-bottom: 0.5vw;
+}
+#pageNumNav{
+    display: flex;
+    color: #272b3d;
+    font-family: "Arial", sans-serif;
+    font-size: 2vw;
+    font-weight: 800;
+}
+#centerPage{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+#leftPage{
+    border-radius: 50vw;
+    background-color: #272b3d;
+    color: white;
+}
+#leftPage,#centerPage,#rightPage{
+    text-align: center;
+    width: 3.1vw;
+    height: 3.1vw;
+}
+
+@media screen and (max-width: 1024px){
+    #mostPopularSection{
+        width: 100vw;
+        height: 40vw;
+    }
+    #socksTopic{
+        font-size: 6vw;
+    }
+    #pageNumNav{
+        font-size: 4vw;
+    }
+    #leftPage,#centerPage,#rightPage{
+        width: 6vw;
+        height: 6vw;
+    }
+    #shopBox{
+        width: 90vw;
+    }
+    .sockBox{
+        align-items: center;
+        width: 30vw;
+        margin-bottom: 3vw;
+    }
+    .sockImg{
+        width: 26vw;
+        height: 22vw;
+    }
+
+    .optionSelector{
+        font-size: 2vw;
+        width: 11vw;
+        height: 3vw;
+    }
+    .numberInput{
+        font-size: 2vw;
+        width: 4vw;
+        height: 2vw;
+    }
+    .sockSubmit{
+        margin-top:1vw;
+        width: 17vw;
+        height: 4vw;
+        font-size: 1.3vw;
+    }
+
+    .sockName{
+        font-size: 2.9vw;
+    }
+    .sockPrice{
+        font-size: 2.5vw;
+    }
+}
+@media screen and (max-width: 512px){
+    #mostPopularSection{
+        height: 45vw;
+    }
+    #socksTopic{
+        font-size: 7vw;
+    }
+    #pageNumNav{
+        font-size: 5vw;
+    }
+    #leftPage,#centerPage,#rightPage{
+        width: 7vw;
+        height: 7vw;
+    }
+    #shopBox{
+        width: 90vw;
+    }
+    .sockBox{
+        align-items: center;
+        width: 50vw;
+        margin-bottom: 7vw;
+    }
+    .sockImg{
+        width: 46vw;
+        height: 37vw;
+    }
+    .sockName{
+        font-size: 3.9vw;
+    }
+    .sockPrice{
+        font-size: 3.5vw;
+    }
+    #hoverBox1{
+        width: 40vw;
+    }
+    .optionSelector{
+        font-size: 3.3vw;
+        margin-right: 0.5vw;
+        font-family: "Arial",sans-serif;
+        width: 18vw;
+        height: 5vw;
+    }
+    .numberInput{
+        padding: 0;
+        font-size: 3.3vw;
+        width: 13vw;
+        height: 4.1vw;
+    }
+    .sockSubmit{
+        margin-top: 2vw;
+        margin-bottom: 3vw;
+        width: 33vw;
+        height: 8vw;
+        font-size: 2.8vw;
+    }
+}

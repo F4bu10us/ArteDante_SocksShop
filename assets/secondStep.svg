@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-647 -198L719 -198L719 570L-647 570Z" />
+		</clipPath>
+		<image width="72" height="72" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAMAAABiM0N1AAAAAXNSR0IB2cksfwAAAfJQTFRFJys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9RkpZtLW76urs8/P06+vtuLm/TFBeJys9Jys9RUlY6Onq////+vr67+/xT1Jht7i+1dXZWVxqQERUVllnzc7SwsPIJys9Jys98fHy/P39REdX+fn68fLzJys99fX29PT1NDdILjJD9/f3Jys9Jys9MjZHLDBC6enr9vb3Jys9RUhYNjpLP0JS7OzuJys98PDx/v7+/f39Jys9Jys9Jys9Jys9Jys9+/v7s7S7ra61sbO59/j48vP0MDRFJys9Jys9Jys9MTVGj5GboKKqnZ+nVVhmpKWtc3aBhoiSgIKNPUFRbG57Q0ZWUFNi29zfKi5AOj5Ovb7E0tPX0dLWlZegKCw+/Pz8R0ta+Pj5vr/Ex8jNTVBfSk1cv8DFS09eJys97O3uwcLHJys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9Jys9siw37QAAAKZ0Uk5TAAMzYomv0+by/x1use8aCF/B/vy4Ww996QZz7u1B2gqWJtRG8PFd+2VVVkL5lTwE0nJ8CevC/////////8Me/////////////////2+5///////1//////8FNv////9m/////5L///+TtbTn8//////////s4ND///////////////////////////////////////9g//9+fz3VJ1dHEYDEux9w9gP6bNUAAAMSSURBVHictZj5VxMxEIDDVYiAxaIc5SgUEOQsggoq6AqKKEUtrNqKIiIIFu9bVPDEWzxQORQP+D/d3RbKTrLZ7OH3Y17me/sy2UkyCGkTF5+QmORITsE4JdmRlJgQH8eYrMm61LR0DEhPS11vzOLM2OCClgiZGzc5uTVZ2Tl0S4Sc7CwuTa47j6WRyXfn6nsKCvU0MoUFOhpPkcbaQFxFHpan2MGnkfEWa3tKSvk9GJeVaHk2lxvxYFyeQfdUcC5PDFcFzbMl06hH2p6VpKeq2rgH4+oqIl+G1jlGKcidx0De1TjU+6nGrAfjmrWeWsMJi+GqjXnqfOY9GPvqVkX1VjwY1694svKtifJW6tNWax6MsyOehkarosYGRZRh1YNx5O/dBoe372hqZrFz124Q0SJ7WuEe2rNXEPaxEIS2dnWIq1USpcIP2i8c6DjIovOQcBjEdEkiPxR1H2mHQ4CjxwJgxC/t6h44rVc8riM60XQSjPQEUYiYJoqndER9p8/AoRDqJ0W9ZwfYnBskRP3oPCEaGu4eYtN9YQgGjaBRUiToQ4guIrI0mhL5UNgeURiNEaLApctX2Fy9dh0GpSDCg8XmPnJQDZl+jMjjTBQHdDw3miiim/aIxtAte0RhdJsuunP3XpT7sPhQRT7KhlRE47FUP+ARjVJ+EUXU9/BRlIlJHtEI7ac1s0b91DIiizoeKzzhFIVQkChsiuhpdIGePecSSYWNLLWK6MXUS5lXr99wify04m+m1HbRjqPA23c6osn34KdVjiPUAqZ9EKY/Mivtp8/CtDqkhXpkf2kTBJHFsCCOq0Nm6JeI9qlBpujrt051QPQSgb7rLIkusysXLd0HGpvVi5bVq5/b/ssomrNyPZ77Hxd25Jk365kHT9IFs4+aBQSw65mFUKWZh98P0mPfU9S+x7H0XC8z4in7qeWRcufl93iJfK3FrpaGRBVfk4WSdkium+hkQdJ52j4Si7PsRtSvRS6NjHPmt1Zr7I+B1pjC3yX/MrQs+5cMNusiBENy+zAsnek9Ybl9GAoyJv8Dn/B0b/Jp6+sAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Монтажная область 1" clip-path="url(#cp1)">
+		<use id="оплата" style="fill-opacity: 0.6" href="#img1" x="0" y="0" />
+	</g>
+</svg>

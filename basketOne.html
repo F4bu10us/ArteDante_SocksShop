@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/basketOne.css">
+    <link rel="stylesheet" href="style/headerBasket.css">
+    <script type="text/javascript" src="script/menuScript.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Basket Order</title>
+</head>
+<body>
+    <header id="mainHeader">
+        <section id="contentHolder">
+            <img id="menu_button" src="assets/menu.png" alt="menu">
+            <nav id="dropdownContent">
+                <a>ПОПУЛЯРНІ</a>
+                <a>ЖІНОЧІ</a>
+                <a>ЧОЛОВІЧІ</a>
+                <a>ДИТЯЧІ</a>
+                <a>ЗНИЖКИ</a>
+            </nav>
+        </section>
+        <img id="logo" src="assets/logo.png" alt="menu">
+        <section id="basket"><p id="purchases">4</p></section>
+    </header>
+    <article id="mainArticle">
+        <section>
+            <img id="progressImg" src="assets/firstProgress.png" alt="firstProgress">
+        </section>
+        <article id="contentArticle">
+            <section id="orders">
+                <article id="innerOrders">
+                    <section id="textAmount">
+                        <span>Ваші замовлення</span>
+                        <p>4</p>
+                    </section>
+                    <hr>
+                    <article id="basketBox">
+                        <section class="allSockInfo">
+                            <img class="sockImg" src="assets/sock1.png" alt="sock">
+                            <section class="sockInfo">
+                                <span class="sockName">HAPPY SOCKS</span>
+                                <span class="sockSize">Розмір 36-40</span>
+                                <span class="sockPrice">35,20</span>
+                                <form>
+                                    <input class="numberInput" step="any" min="1" max="999" placeholder="1" type="number">
+                                </form>
+                            </section>
+                            <section class="crossSection">
+                                <img src="assets/cross.svg" alt="cross">
+                            </section>
+                        </section>
+                        <section class="allSockInfo">
+                            <img class="sockImg" src="assets/sock2.png" alt="sock">
+                            <section class="sockInfo">
+                                <span class="sockName">HAPPY SOCKS</span>
+                                <span class="sockSize">Розмір 40-45</span>
+                                <span class="sockPrice">70,40</span>
+                                <form>
+                                    <input class="numberInput" step="any" min="1" max="999" placeholder="1" type="number">
+                                </form>
+                            </section>
+                            <section class="crossSection">
+                                <img src="assets/cross.svg" alt="cross">
+                            </section>
+                        </section>
+                        <section class="allSockInfo">
+                            <img class="sockImg" src="assets/sock3.png" alt="sock">
+                            <section class="sockInfo">
+                                <span class="sockName">HAPPY SOCKS</span>
+                                <span class="sockSize">Розмір 40-45</span>
+                                <span class="sockPrice">35,20</span>
+                                <form>
+                                    <input class="numberInput" step="any" min="1" max="999" placeholder="1" type="number">
+                                </form>
+                            </section>
+                            <section class="crossSection">
+                                <img src="assets/cross.svg" alt="cross">
+                            </section>
+                        </section>
+                        <section class="allSockInfo">
+                            <img class="sockImg" src="assets/sock2.png" alt="sock">
+                            <section class="sockInfo">
+                                <span class="sockName">HAPPY SOCKS</span>
+                                <span class="sockSize">Розмір 36-40</span>
+                                <span class="sockPrice">35,20</span>
+                                <form>
+                                    <input class="numberInput" step="any" min="1" max="999" placeholder="1" type="number">
+                                </form>
+                            </section>
+                            <section class="crossSection">
+                                <img src="assets/cross.svg" alt="cross">
+                            </section>
+                        </section>
+                    </article>
+                    <hr>
+                    <section id="totalSum">
+                        <h3>
+                            Всього
+                        </h3>
+                        <h3>
+                            176,00
+                        </h3>
+                    </section>
+                </article>
+            </section>
+            <section id="customerInfo">
+                <form id="customerInput">
+                    <h2>
+                        Впишіть ваші дані для відправки
+                    </h2>
+                    <input placeholder="Ім'я і прізвище" type="text" required>
+                    <input placeholder="Місто" type="text" required>
+                    <input placeholder="Номер телефону" type="text" required>
+                    <input placeholder="Номер відділення Нової Пошти" type="number" required>
+                    <textarea for="customerInput" placeholder="Коментар до замовлення"></textarea>
+                    <section>
+                        <input id="submitInfo" type="submit" value="ВІДПРАВИТИ">
+                    </section>
+                </form>
+            </section>
+        </article>
+    </article>
+</body>
+</html>

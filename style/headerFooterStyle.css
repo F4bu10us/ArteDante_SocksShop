@@ -1,0 +1,393 @@
+body{
+    margin: 0;
+}
+#mainArticle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7vw;
+}
+#mainHeader{
+    z-index: 25;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+    padding-top: 0.3vw;
+    padding-bottom: 0.6vw;
+    box-shadow: 0 3px 15px rgba(0,0,0, 0.5);
+    height: 5vw;
+}
+#menu_button{
+    width: 1.8vw;
+}
+#dropdownContent{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    border: 0.05vw solid black;
+    padding-right: 1vw;
+}
+#dropdownContent > a{
+    font-size: 1vw;
+    color: black;
+    margin-left: 0.3vw;
+    margin-top: 0.5vw;;
+    margin-bottom: 0.5vw;
+    font-family: "Arial Narrow",sans-serif;
+}
+#logo{
+    width: 16vw;
+}
+#basket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/basket.svg");
+    background-size: 100% 100%;
+    width: 2.4vw;
+    height: 2.1vw;
+}
+#purchases{
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 0.95vw;
+    margin-top: 70%;
+}
+
+@media screen and (max-width: 1500px){
+    #mainArticle {
+        margin-top: 11vw;
+    }
+    #mainHeader{
+        height:7vw;
+    }
+    #dropdownContent > a{
+        font-size: 1.3vw;
+    }
+    #logo {
+        width: 22vw;
+    }
+    #basket {
+        width: 4.5vw;
+        height: 3.5vw;
+    }
+    #purchases {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #dropdownContent{
+        display: none;
+        position: absolute;
+        background-color: white;
+        z-index: 1;
+        border: 0.05vw solid black;
+        padding-right: 0;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+    }
+    #dropdownContent > a{
+        text-align: center;
+        width: 50vw;
+        font-size: 9vw;
+        padding: 1vw;
+        border: 0.2vw solid;
+    }
+    #mainHeader{
+        height:11vw;
+    }
+    #logo {
+        width: 33vw;
+    }
+    #basket {
+        width: 5.5vw;
+        height: 4.5vw;
+    }
+    #mainArticle {
+        margin-top: 15vw;
+    }
+    #purchases {
+        font-size: 2.3vw;
+    }
+}
+
+
+@media screen and (max-width: 512px){
+    #dropdownContent > a{
+        width: 70vw;
+        font-size: 14vw;
+    }
+    #mainHeader{
+        height:14vw;
+    }
+    #mainArticle{
+        margin-top: 11vw;
+        margin-bottom: 0;
+    }
+    #logo {
+        width: 40vw;
+    }
+    #basket {
+        width: 8.5vw;
+        height: 7.5vw;
+    }
+    #purchases {
+        font-size: 3.5vw;
+    }
+}
+
+#mainFooter{
+    display: flex;
+    justify-content: center;
+    background-color: #272b3d;
+    height: 27vw;
+}
+.footerSections{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+    width: 28%;
+}
+#inputSect{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+#footerSend > h3{
+    font-size: 1vw;
+    color: #686b78;
+    font-family: "Arial", sans-serif;
+    width: 21vw;
+    line-height: 1.3vw;
+    letter-spacing: 0.2vw;
+}
+.input{
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    background-color: transparent;
+    border: solid 0.1vw #686b78;
+    width: 19vw;
+    font-size: 1.2vw;
+    font-family: "Arial Narrow", sans-serif;
+    padding: 0.8vw;
+    color: white;
+}
+.input::placeholder{
+    letter-spacing: 0.1vw;
+    color:rgba(61, 62, 81, 1);
+}
+
+.checkbox{
+    margin-top: 1vw;
+}
+
+.checkbox-label{
+    margin-left: 0;
+    margin-right: 0.5vw;
+    font-size: 1.1vw;
+    color: #686b78;
+    font-family: "Arial Narrow", sans-serif;
+    letter-spacing: 0.05vw;
+}
+
+#submitOrder{
+    width: 21vw;
+    height: 4vw;
+    margin-top: 1.5vw;
+    margin-bottom: 2.5vw;
+    background-color: #686b78;
+    border: none;
+    outline: none;
+    padding: 0;
+    color: #c3c4c9;
+    font-family: "Arial", sans-serif;
+    font-size: 1vw;
+    letter-spacing: 0.1vw;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#submitOrder:active{
+    box-shadow: inset 0 0.3vw 0.4vw rgba(0, 0, 0, 0.4);
+}
+
+#footerLogo{
+    align-items: center;
+}
+#footerLogo>section>img{
+    width: 2.5vw;
+}
+#middleImg{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+#footerInfo{
+    align-items: flex-end;
+    text-align: right;
+}
+#footerLogo>.bottomFooter{
+    letter-spacing: 0.1vw;
+    color: white;
+    font-family: "M S", sans-serif;
+}
+#footerInfo > h3{
+    color: white;
+    font-family: "Arial Narrow", sans-serif;
+    letter-spacing: 0.2vw;
+    font-size: 1.3vw;
+}
+#logo_text{
+    color: white;
+    margin-top: 1.5vw;
+    margin-bottom: 0.5vw;
+    font-size: 1.9vw;
+    letter-spacing: 0.3vw;
+    font-family: "Impact", sans-serif;
+}
+.bottomFooter{
+    margin-bottom: 2.5vw;
+}
+a{
+    color: white;
+}
+
+@media screen and (max-width: 1500px){
+    #mainFooter {
+        height: 30vw;
+    }
+    #footerLogo>section>img {
+        width: 3.5vw;
+    }
+    #logo_text {
+        font-size: 2.7vw;
+    }
+    #footerLogo, #footerInfo > h3 {
+        font-size: 1.7vw;
+    }
+    #footerSend > h3 {
+        font-size: 1.3vw;
+        width: 28vw;
+        line-height: 1.6vw;
+    }
+    .input {
+        width: 22vw;
+        font-size: 1.6vw;
+    }
+    .checkbox-label {
+        font-size: 1.3vw;
+    }
+    #submitOrder {
+        width: 24vw;
+        font-size: 1.4vw;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #mainFooter {
+        width: 100vw;
+        padding-top: 5vw;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footerSend{
+        align-items: center;
+        margin-bottom: 3vw;
+    }
+    #footerSend > h3 {
+        font-size: 1.8vw;
+        width: 35vw;
+        line-height: 2.5vw;
+        text-align: center;
+    }
+    .input {
+        width: 25vw;
+        font-size: 2vw;
+        padding: 1.5vw;
+    }
+    #checkBoxes{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 1vw;
+        margin-left: 2vw;
+    }
+    .checkbox-label {
+        font-size: 2.4vw;
+    }
+    #submitOrder {
+        width: 27vw;
+        font-size: 1.7vw;
+    }
+    #footerInfo{
+        align-items: center;
+        margin-bottom: 3vw;
+    }
+    #footerInfo > h3 {
+        font-size: 2.7vw;
+    }
+    #footerLogo{
+        order:1;
+    }
+    #footerLogo>section>img {
+        width: 6vw;
+    }
+    #logo_text {
+        font-size: 3.7vw;
+    }
+
+
+    @media screen and (max-width: 512px){
+        .footerSections {
+            width: 75%;
+        }
+        #footerSend > h3 {
+            font-size: 4.3vw;
+            width: auto;
+            line-height: 4.5vw;
+        }
+        .input {
+            width: 50vw;
+            font-size: 5vw;
+            margin-bottom: 3vw;
+        }
+        .checkbox-label {
+            font-size: 5.4vw;
+        }
+        #submitOrder {
+            width: 52vw;
+            font-size: 4.5vw;
+            height: 11vw;
+        }
+        #footerInfo > h3 {
+            font-size: 4.7vw;
+            margin-bottom: 1vw;
+        }
+        #footerLogo {
+            margin-top: 3vw;
+        }
+        #footerLogo>section>img {
+            width: 9vw;
+        }
+        #logo_text {
+            font-size: 7.7vw;
+            margin-top: 5vw;
+        }
+        #footerLogo>.bottomFooter {
+            margin-top: 1vw;
+            font-size: 3vw;
+            margin-bottom: 5vw;
+        }
+    }
+}

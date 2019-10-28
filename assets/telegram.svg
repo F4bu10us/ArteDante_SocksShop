@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-662 -1303L704 -1303L704 178L-662 178Z" />
+		</clipPath>
+		<image width="40" height="40" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAAXNSR0IB2cksfwAAAYlQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////9PT10NDUmJqiU1ZlNjpLgYOO////////+fn61tfanZ+nZWh1NTlKJys9REdX////////3t/hqqyzbnF9QENTb3J+////////7O3uubrAd3qFQ0ZWKi0/Ki5As7S7////////8PDxxcbLiIuUS05dVlln5ubo/////P390tPXk5WeXF9sLjJDl5mh////i42XOj5O////NThJaGt49/f3////m52lQkZVpqiv////29zfkZOcS09eQERU2drd6enrqauyW15rKy9B+Pj59fX2t7i+ZGd0KCw+rq+27e7vRUlYpKWtfYCL////RkpZwcLHjZCZUFNi8fLz1dXZOj1OlJaf/f39d3mF0NHVysvQLzNFam159vb3////RUhYsrO6////////////////////////BE5UVAAAAIN0Uk5TAAI3eKzS7fgciOL/FJX5llnrWgWYCrYGs5rsFR3///////8eif////////+K5f//////Azn/////////Onr///////+u////////1f//7/////z////7/////////////////////////3v///////////////////+Z//9bteR57vor5k6bAAABw0lEQVR4nJWVZ1vCMBSFA4IKQRQtQ3Bv4sItihOcKO699957C7/cplAy2qKeT7cn79M8N705BYCWTp9mMKZnZKQbDWl6HdBSpskMKZlNmaqYJcsKOVmzLUoux8ZjWLZcDssT1DAsIY/m7A4tDkKHnXBOlzYHocuZBPNTcRDmy1xuag7CREcW92+g2yOBmg0TCZgrUJwzVmFRcUlpmfxkLRfBCiVVWVVd40UI1SadOnEO6nmsodHXhCQ1J736FtDKUm3tHZ3+OIa6uokfAD0U1dvXPyBTogaDZKkHhORyaHhkdAzRGh8iYAiE5XJiErHyFlGbhUFELqc4Dk3PUGAEzMrl3DzL+RfoJhcJCJeWV2hwdY0FI9TT+sbmVhL0bdNghDQjaWd3bz+x8wGzECbHk9BhSRw8CjJ2iDlwScdx8IR1T0GAB4Nn0uc7Z90AaFEMxQUGL68YTxwK5Zhd34jgLevVqQ3u3T1CUw+MJQ2u8io8PqHnF8Z5le6Mh79cL/dv74yRuFzgg38lr4//BgBwfqbiPkmk/Dmk/h57OIBUg8XNBymOIEEZzYJKNAMc9l809qUR9lg6/bfBGI3FokbDN/f7+AFtZXBoE7nbfQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Монтажная область 1" clip-path="url(#cp1)">
+		<g id="Футер">
+			<use id="телеграм" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

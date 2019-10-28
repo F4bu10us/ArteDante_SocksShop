@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/basketTwo.css">
+    <link rel="stylesheet" href="style/headerBasket.css">
+    <script type="text/javascript" src="script/menuScript.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Basket Payment</title>
+</head>
+<body>
+    <header id="mainHeader">
+        <section id="contentHolder">
+            <img id="menu_button" src="assets/menu.png" alt="menu">
+            <nav id="dropdownContent">
+                <a>ПОПУЛЯРНІ</a>
+                <a>ЖІНОЧІ</a>
+                <a>ЧОЛОВІЧІ</a>
+                <a>ДИТЯЧІ</a>
+                <a>ЗНИЖКИ</a>
+            </nav>
+        </section>
+        <img id="logo" src="assets/logo.png" alt="menu">
+        <section id="basket"><p id="purchases">4</p></section>
+    </header>
+    <article id="mainArticle">
+        <section id="progressSection">
+            <img id="progressImg" src="assets/secondProgress.png" alt="secondProgress">
+        </section>
+        <section id="payment">
+            <form>
+                <section id="paymentBox">
+                    <label>
+                        <h3 class="paymentInfo">Номер картки:</h3>
+                        <input class="longInput" type="number" required>
+                    </label>
+                    <label>
+                        <h3 class="paymentInfo">Термін дії</h3>
+                        <input class="shortInput" type="text" required>
+                    </label>
+                    <label>
+                        <h3 class="paymentInfo">ПІБ власника картки:</h3>
+                        <input class="longInput" type="text" required>
+                    </label>
+                    <label>
+                        <h3 class="paymentInfo">Код CVV2:</h3>
+                        <input class="shortInput" type="number" required>
+                    </label>
+                </section>
+                <input id="submitInfo" type="submit" value="ОПЛАТИТИ">
+            </form>
+        </section>
+    </article>
+
+</body>
+</html>

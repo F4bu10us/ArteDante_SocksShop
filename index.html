@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/headerFooterStyle.css">
+    <script type="text/javascript" src="script/menuScript.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <header id="mainHeader">
+        <section id="contentHolder">
+            <img id="menu_button" src="assets/menu.png" alt="menu">
+            <nav id="dropdownContent">
+                <a>ПОПУЛЯРНІ</a>
+                <a>ЖІНОЧІ</a>
+                <a>ЧОЛОВІЧІ</a>
+                <a>ДИТЯЧІ</a>
+                <a>ЗНИЖКИ</a>
+            </nav>
+        </section>
+        <img id="logo" src="assets/logo.png" alt="menu">
+        <section id="basket"><p id="purchases">2</p></section>
+    </header>
+    <article id="mainArticle">
+        <section class="bigSocks goButtonBox" id="mostPopularSection">
+            <span class="socksText">НАЙПОПУЛЯРНІШІ</span>
+            <button class="goButton">ПЕРЕЙТИ</button>
+        </section>
+        <article id="smallSocksBox">
+            <section class="smallSocks goButtonBox" id="smallSock1">
+                <span class="socksText">ЖІНОЧІ</span>
+                <button class="goButton">ПЕРЕЙТИ</button></section>
+            <section class="smallSocks goButtonBox" id="smallSock2">
+                <span class="socksText">ЧОЛОВІЧІ</span>
+                <button class="goButton">ПЕРЕЙТИ</button></section>
+            <section class="smallSocks goButtonBox" id="smallSock3">
+                <span class="socksText">ДИТЯЧІ</span>
+                <button class="goButton">ПЕРЕЙТИ</button>
+            </section>
+        </article>
+        <section class="bigSocks goButtonBox" id="discountSection">
+            <span class="socksText">ЗНИЖКИ</span>
+            <button class="goButton">ПЕРЕЙТИ</button>
+        </section>
+    </article>
+    <footer id="mainFooter">
+            <section class="footerSections" id="footerSend">
+                <h3>
+                    З’явилися питання?<br>
+                    Залиш свої контактні дані,<br>
+                    щоб я зміг з тобою зв’язатися
+                </h3>
+                <form>
+                        <section id="inputSect">
+                            <label>
+                                <input class="input" placeholder="Телефон" class="input-box" type="text" maxlength="13" required>
+                            </label>
+                            <label>
+                                <input class="input" placeholder="E-mail" class="input-box" type="email" maxlength="35" required>
+                            </label>
+                        </section>
+                        <section id="checkBoxes">
+                            <label class="checkbox-label">
+                                <input class="checkbox" type="checkbox">
+                                Зателефонувати
+                            </label>
+                            <label class="checkbox-label">
+                                <input class="checkbox" type="checkbox">
+                                Написати на e-mail
+                            </label>
+                        </section>
+                    <input id="submitOrder" type="submit" value="ВІДПРАВИТИ">
+                </form>
+            </section>
+            <section class="footerSections" id="footerLogo">
+                <section>
+                    <img src="assets/instagram.svg" alt="Instagram">
+                    <img id="middleImg" src="assets/telegram.svg" alt="Telegram">
+                    <img src="assets/facebook.svg" alt="Facebook">
+                </section>
+                <span id="logo_text">
+                    SOCKS STORE
+                </span>
+                <span class="bottomFooter">
+                    Ukraine 2019
+                </span>
+            </section>
+            <section class="footerSections" id="footerInfo">
+                <h3>
+                    Завжди на зв’язку
+                </h3>
+                <h3>
+                    <a href="tel:0966567577">096 656 75 77</a><br>
+                    <a href="tel:0937778493">093 777 84 93</a>
+                </h3>
+                <h3 class="bottomFooter">
+                    <a href="mailto:socksstore.ua@gmail.com">socksstore.ua@gmail.com</a>
+                </h3>
+            </section>
+    </footer>
+</body>
+</html>

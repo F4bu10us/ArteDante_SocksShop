@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-717 -1303L649 -1303L649 178L-717 178Z" />
+		</clipPath>
+		<image width="40" height="40" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAAXNSR0IB2cksfwAAAWVQTFRF/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////v7+y8zRfYCLUVRiSk1cSEtbS05d////tri+TFBeKy9BJys9////////////pKau////ycrONThJ////////+vr6d3qF////5+jqKCw+Oz9PRkpZRUlYREdXR0ta////4uPlPEBQUlVk/Pz8+Pj5+/v7////5eXnPkFSbXB8j5GbYWRxWFtpLTFCOTxNX2JvXWBunZ+n////////QUVVWl1r////YmVyYGNwam15/f39aGt44eLkPUFRZ2p3+fn64ODjNztL////6+vtQkZVioyW/P39////////////////////////////////////MKKl3QAAAHd0Uk5TAAI2eKvR7fjSrHk3G4bh/+OIHBST+ZZV7OtYBJWYBQmzCgOxkRLq/////////xP/////lxn3/4T//4fg//8z/////////3b///////+o///////////////T6f//9f//////////////Wv////+Zsga24uTu+jjWrPr5AAABoElEQVR4nI3VZ1fCMBQG4FRk1KJBoVoVFMQNruJEFBUHCi7cCxcOxC34+20QaJImHN5vaZ825zbJLQB4hDpTvdlitVpsYoMkAF7sjU0Qi6O5hcmcLiukIrc6ja5NoRlKewfFOt0shuLpwl23l+cg9Pp01+PnOwj9+jt7qzlt9kod1R2EpYr6+omrA4NDwwEtwZHKJWW0CF3k42PjE+p/9Gsh5CanCDddZjiU0RrNEG52TmVAGNb2wTzuIgsqEzoEsEi8MBpEYml5JRZbXcNvSGCdgBtxBDejW5FIIonfMIFtAu7sIrgHDRGBGRvtpw4OETw6TqVOTgl4Bs6x0QVWiXpJQAVcYaMADtMElGuHNU/NLOaaUQzr89zcQjoi/cGL8C5pgCZqCe8zCD48GqBEbQoe1DYFuc14MExvXA4sblziKHBgyHC42LB0uPDj+vRcXL0ECbPlg61P/pLO5HLx1zfCvdfYUj4+9ebjq9KkvrAmpbW9EM+RbQ9VZGExJQsMcbplmskeRmvWYg9/4+yH0+xRBMkk2vKFQl77ffySv48/TbKJASMq5ZYAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Монтажная область 1" clip-path="url(#cp1)">
+		<g id="Футер">
+			<use id="фейсбук" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

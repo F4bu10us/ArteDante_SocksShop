@@ -1,0 +1,318 @@
+#contentArticle{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+    width: 90vw;
+    margin-bottom: 5vw;
+}
+#orders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    min-height: 40vw;
+    border: 0.15vw solid;
+    margin-right: 5vw;
+}
+#innerOrders{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 95%;
+}
+#textAmount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Arial Narrow", sans-serif;
+    font-size: 1.5vw;
+    letter-spacing: 0.1vw;
+}
+#textAmount > p{
+    border-radius: 50vw;
+    background-color: #272b3d;
+    color: white;
+    font-family: "Arial", sans-serif;
+    font-size: 1.5vw;
+    font-weight: 800;
+    text-align: center;
+    width: 2.3vw;
+    height: 2.2vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+#basketBox{
+    margin-top: 1vw;
+    height: 30vw;
+    overflow: auto;
+}
+.allSockInfo{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vw;
+}
+.sockImg{
+    width: 7vw;
+    height: 5.5vw;
+}
+.sockInfo{
+    margin-left: 1vw;
+    display: flex;
+    flex-flow: column;
+    font-family: "Arial", sans-serif;
+}
+.sockName{
+    font-weight: bold;
+}
+.sockName,.sockSize, .sockPrice{
+    font-size: 1.1vw;
+    margin-bottom: 0.3vw;
+    letter-spacing: 0.05vw;
+}
+.numberInput{
+    font-size: 1.3vw;
+    width: 3vw;
+    height: 1.5vw;
+    border: 0.01vw solid;
+}
+.crossSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+.crossSection > img{
+    width: 1.2vw;
+}
+hr{
+    width: 100%;
+}
+#totalSum{
+    display: flex;
+}
+#totalSum > h3{
+    font-family: "Arial", sans-serif;
+    margin-right: 3vw;
+    letter-spacing: 0.05vw;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 0.75vw;
+}
+#customerInfo{
+    width: 37vw;
+    border: 0.15vw solid;
+}
+#customerInput{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+#customerInput > h2{
+    font-family: "Arial", sans-serif;
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
+}
+#customerInput > input{
+    font-family: "Arial", sans-serif;
+    width: 50%;
+    height: 1.6vw;
+    margin-bottom: 1vw;
+    font-size: 0.9vw;
+    padding: 0.5vw;
+    border: 0.01vw solid;
+ }
+#customerInput > textarea{
+    font-family: "Arial", sans-serif;
+    font-size: 0.9vw;
+    width: 50%;
+    height: 5vw;
+    padding: 0.5vw;
+    margin-bottom: 1vw;
+    border: 0.01vw solid;
+}
+#customerInput>section{
+    width: 53%;
+}
+#submitInfo{
+    background-color: #272b3d;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 0.8vw;
+    height: 3vw;
+    width: 100%;
+}
+#progressImg{
+    width: 40vw;
+}
+
+@media screen and (max-width: 1024px){
+    #progressImg{
+        width: 13vw;
+    }
+    #contentArticle{
+        width: auto;
+        align-items: flex-start;
+        margin-left: 9vw;
+    }
+    #orders{
+        width: 60vw;
+        margin-bottom: 5vw;
+        margin-right: 0;
+    }
+    #innerOrders{
+        width: 90%;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+    #textAmount{
+        font-size: 3vw;
+        letter-spacing: 0.2vw;
+        margin-bottom: 0.5vw
+    }
+    #textAmount > p{
+        font-size: 2.5vw;
+        width: 3.6vw;
+        height: 3.5vw;
+        margin-top: 0.5vw;
+        margin-bottom: 0vw
+    }
+    #basketBox{
+        height: 50vw;
+        margin-bottom: 1vw;
+    }
+    .sockImg{
+        width: 18vw;
+        height: 14vw;
+    }
+    .sockName, .sockSize, .sockPrice {
+        font-size: 2.5vw;
+        margin-bottom: 0.5vw;
+        letter-spacing: 0.05vw;
+    }
+    .crossSection > img {
+        width: 2.5vw;
+    }
+    .numberInput {
+        font-size:2.1vw;
+        width: 5vw;
+        height: 2.5vw;
+    }
+    #totalSum{
+        margin-top: 1vw;
+        justify-content: center;
+    }
+    #totalSum > h3{
+        font-size: 3vw;
+    }
+    #customerInfo{
+        width: 60vw;
+    }
+    #customerInput > h2{
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        font-size: 3vw;
+    }
+    #customerInput > input{
+        width: 80%;
+        height: 3vw;
+        margin-bottom: 2vw;
+        font-size: 2.2vw;
+        padding: 1vw;
+    }
+    #customerInput > textarea{
+        width: 80%;
+        height: 11vw;
+        margin-bottom: 3vw;
+        font-size: 2.2vw;
+        padding: 1vw;
+    }
+    #customerInput > section{
+        margin-bottom: 3vw;
+        width: 84%;
+    }
+    #submitInfo{
+        font-size: 2.3vw;
+        height: 7vw;
+    }
+}
+
+
+@media screen and (max-width: 512px){
+    #progressImg {
+        width: 15vw;
+    }
+    #contentArticle{
+        margin-left: 5vw;
+    }
+    #orders {
+        width: 70vw;
+        margin-left: 0;
+        margin-bottom: 7vw;
+    }
+    #customerInfo {
+        width: 70vw;
+    }
+
+    #textAmount{
+        font-size: 5vw;
+    }
+    #textAmount > p{
+        font-size: 3.4vw;
+        width: 5.1vw;
+        height: 5vw;
+    }
+    #basketBox{
+        height: 65vw;
+    }
+    .sockImg{
+        width: 22vw;
+        height: 18vw;
+    }
+    .sockName, .sockSize, .sockPrice {
+        font-size: 3.5vw;
+    }
+    .crossSection > img {
+        width: 3.5vw;
+    }
+    .numberInput {
+        font-size:4.1vw;
+        width: 7vw;
+        height: 3.5vw;
+    }
+    #totalSum > h3{
+        font-size: 4.5vw;
+    }
+    #customerInput > h2{
+        margin-top: 3vw;
+        margin-bottom: 5vw;
+        font-size: 4vw;
+    }
+    #customerInput > input{
+        width: 85%;
+        height: 4vw;
+        margin-bottom: 3.5vw;
+        font-size: 3.5vw;
+        padding: 1.8vw;
+    }
+    #customerInput > textarea{
+        width: 85%;
+        height: 11vw;
+        margin-bottom: 4vw;
+        font-size: 3.5vw;
+        padding: 1.8vw;
+    }
+    #customerInput > section{
+        margin-bottom: 3vw;
+        width: 89%;
+    }
+    #submitInfo{
+        font-size: 3.3vw;
+        height: 9vw;
+    }
+}

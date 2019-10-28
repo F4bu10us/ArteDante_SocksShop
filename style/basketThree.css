@@ -1,0 +1,90 @@
+#thanks{
+    margin-top: 2vw;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#hearthBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/hearth.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 50% 100%;
+    width: 40vw;
+    height: 20vw;
+}
+#hearthBox > h2{
+    font-family: "Impact", sans-serif;
+    letter-spacing: 0.2vw;
+    text-align: center;
+    font-size: 2.5vw;
+    color: #272b3d;
+}
+#goBack{
+    margin-top: 2vw;
+    background-color: #272b3d;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 1vw;
+    width: 25vw;
+    height: 3.5vw;
+    letter-spacing: 0.1vw;
+}
+#goBack:active{
+    box-shadow: inset 0 0.3vw 0.6vw rgba(200, 200, 200, 0.6);
+}
+#progressImg{
+    width: 40vw;
+}
+
+@media screen and (max-width: 1024px){
+    #progressImg {
+        width: 8vw;
+    }
+    #hearthBox{
+        width: 70vw;
+        height: 35vw;
+    }
+    #hearthBox > h2{
+        font-size: 3.9vw;
+        color: #272b3d;
+    }
+    #progressImg, #thanks{
+        margin-top: 10vh;
+    }
+    #goBack{
+        margin-top: 2vw;
+        font-size: 2vw;
+        width: 40vw;
+        height: 5vw;
+    }
+}
+
+@media screen and (max-width: 512px){
+    #progressImg {
+        width: 12vw;
+    }
+    #progressImg, #thanks{
+        margin-top: 15vh;
+    }
+    #hearthBox{
+        background-size: 75% 100%;
+        width: 80vw;
+        height: 60vw;
+    }
+    #hearthBox > h2{
+        font-size: 6.5vw;
+        color: #272b3d;
+    }
+    #goBack{
+        margin-top: 2vw;
+        font-size: 3vw;
+        width: 60vw;
+        height: 7vw;
+    }
+}
